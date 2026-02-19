@@ -1,7 +1,7 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-pca-connector-ad`](https://www.npmjs.com/package/@aws-sdk/client-pca-connector-ad/v/3.556.0).
+[`@aws-sdk/client-pca-connector-ad`](https://www.npmjs.com/package/@aws-sdk/client-pca-connector-ad/v/3.563.0).
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -28,13 +28,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-pca-connector-ad@3.556.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-pca-connector-ad@3.563.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-WfwJ1wKPJ2q6wS5+E1fD6OyjEyaO6W8c59JaaQs6lq3d36xC+6lyDl5v3Yc09yvg
+sha384-JIT3BZuZIiS/LP80+8Rx/wQ5PhqRCR0dynumzhjeV13af2cj8jh8Jr2hUp/tCe00
 ```
 
 ### 📌 Latest Version
@@ -61,10 +61,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-pca-connector-ad": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-pca-connector-ad@3.556.0/index.min.mjs"
+            "@aws-sdk/client-pca-connector-ad": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-pca-connector-ad@3.563.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-pca-connector-ad@3.556.0/index.min.mjs": "sha384-WfwJ1wKPJ2q6wS5+E1fD6OyjEyaO6W8c59JaaQs6lq3d36xC+6lyDl5v3Yc09yvg"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-pca-connector-ad@3.563.0/index.min.mjs": "sha384-JIT3BZuZIiS/LP80+8Rx/wQ5PhqRCR0dynumzhjeV13af2cj8jh8Jr2hUp/tCe00"
         }
       }
 </script>
@@ -81,10 +81,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-pca-connector-ad": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-pca-connector-ad@3.556.0/index.min.mjs"
+                        "@aws-sdk/client-pca-connector-ad": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-pca-connector-ad@3.563.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-pca-connector-ad@3.556.0/index.min.mjs": "sha384-WfwJ1wKPJ2q6wS5+E1fD6OyjEyaO6W8c59JaaQs6lq3d36xC+6lyDl5v3Yc09yvg"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-pca-connector-ad@3.563.0/index.min.mjs": "sha384-JIT3BZuZIiS/LP80+8Rx/wQ5PhqRCR0dynumzhjeV13af2cj8jh8Jr2hUp/tCe00"
                     }
                   }
             </script>
@@ -151,7 +151,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.556.0`)
+* Always pin to a specific version (`@3.563.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -171,7 +171,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-pca-connector-ad/blob/refs/tags/3.556.0/LICENSE
+https://github.com/cloud-sdk-builds/client-pca-connector-ad/blob/refs/tags/3.563.0/LICENSE
 ```
 
 ---
